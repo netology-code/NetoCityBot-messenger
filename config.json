@@ -1,0 +1,21 @@
+{
+  "greeting": "Привет {{user_first_name}}, меня зовут Сити. Я люблю играть в города. Сыграем? Нажми начать!",
+  "start": "bot/start",
+  "menu": [{
+    "type": "postback",
+    "title": "Правила игры",
+    "payload": "bot/menu/rules"
+  }, {
+    "type": "postback",
+    "title": "Информация о текущей игре",
+    "payload": "bot/menu/state"
+  }, {
+    "type": "postback",
+    "title": "Запустить/остановить игру",
+    "payload": "bot/menu/stop"
+  }, {
+    "type": "web_url",
+    "title": "Курс по PHP",
+    "url": "http://netology.ru/programs/php-sql"
+  }]
+}

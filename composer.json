@@ -1,0 +1,17 @@
+{
+  "name": "neto/messenger-city-bot",
+  "authors": [
+    {
+      "name": "Dima Fitiskin",
+      "email": "dfitiskin@gmail.com"
+    }
+  ],
+  "script": {
+    "setup": "php -f setup.php"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "neto/messenger-framework": "dev-master",
+    "ext-mbstring": "*"
+  }
+}
